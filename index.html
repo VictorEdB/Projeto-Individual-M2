@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cifra de César e Base64</title>
+    <link rel="shortcut icon" href="imagens/Pegasus.png" type="image/x-icon">
+   
+</head>
+<body>
+    
+    <main class="main-conteiner">
+    <header class="cabecalho">
+        <img src="imagens/Pegasus.png">
+      <h1>Mensagens Codificadas</h1>
+    </header>
+    
+    <form>
+       
+              
+              <textarea id="mensagem" cols="20" rows="" placeholder="Digite aqui..."></textarea>
+              
+              <textarea name="respmsg" id="respmsg" rows="3" disabled placeholder="Sua mensagem aparecerá aqui:"></textarea>
+              
+              <button id="botaorespmsg">Concluir</button>
+ 
+            
+             
+      <fieldset>
+  
+  <div class="coisas">
+          <select name="cod" id="cod">
+          <option value="cifra">Cifra de César</option>
+          <option value="base64">Base 64</option>
+      
+  
+        <fieldset class="numb">
+         <input type="number" id="valor" value="1" max="25" >
+        </div>
+        </fieldset>
+  
+          <fieldset class="CB">
+          
+            <input type="radio" name="cod" class="radio" id="cod" />
+            <label for="codificar">Codificar</label>
+  
+            <input type="radio" name="cod" class="radio" id="decod" />
+            <label for="decodificar">Decodificar</label>
+          
+        </fieldset>
+  
+       
+  </fieldset>
+
+    </form> 
+  
+  <footer class="cabecalho2"> 
+        <div class="ícons">
+         <a href="https://github.com/VictorEdB"><ion-icon name="logo-github"></ion-icon></a>
+         <a href="https://www.linkedin.com/in/victor-batista-380428252/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+    
+        <h3> Desenvolvido por Victor Ed Souza Batista </h3>
+    
+    </footer>
+</div>
+
+<script src="./js/scipt.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</main>
+    
+    
+
+</body>
+</html>

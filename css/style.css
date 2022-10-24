@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+:root{
+    --corprincipal: rgb(23, 185, 214);
+    --corsecundaria: black;
+    --cortitulo: #333;
+}
+
+body{
+    background: var(--corprincipal);
+    
+}
+
+*{margin: 0;
+  padding: 0;
+  font-family: 'kanit';
+  box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:2%;
+    
+    
+
+}
+
+.cabecalho h1{
+    color: var(--cortitulo);
+}
+
+.cabecalho img{
+    max-width:70px;
+    max-height: 70px;
+    width: auto;
+    height:auto;
+
+}
+
+.cabecalho2{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    padding:5%;
+    margin-top:40px;
+    color: var(--cortitulo);
+
+
+}
+
+.cabecalho2 h3{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button{
+   
+    background: #011640;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    text-decoration: none ;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0,5s;
+    font-size: 13px;
+    margin-left: 1000px;
+    margin-top: 15px;
+    border-radius: 20px;
+  
+    
+}
+
+fieldset{
+    border: none;
+}
+
+#chave{
+    height: 20px;
+}
+
+
+#mensagem{
+    
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: none;
+    width: 300px;
+    height: 200px;
+    box-shadow: 5px 3px 3px  black ;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 20px;
+    outline: 0;
+    padding: 10px;
+}
+
+#respmsg{
+    
+    margin-top: 20px;
+    border: 3px solid var(--cortitulo);
+    border-radius: 20px;
+    box-shadow: none;
+    width: 300px;
+    height: 200px;
+    box-shadow: 5px 3px 3px  black ;
+    margin-left: 500px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #fff;
+        
+    
+}
+
+
+.coisas{
+    display: flex;
+    margin: 0px 0px 0px 650px;
+    flex-direction: column;
+    width: 120px;
+    margin-bottom: 40px;
+}
+
+
+
+.CB{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input{
+    margin:10px;
+}
+
+label{
+    font-size:20px;
+    display:block;
+  
+  }
+  
+button:hover{
+   
+    background: rgb(39, 230, 39);
+    box-shadow: 0 0 10px;
+    color: green;
+    
+}
+ion-icon{
+    font-size: 30px;
+}
+.ícons{
+   height:px;
+}
